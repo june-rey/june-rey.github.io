@@ -1071,9 +1071,6 @@ textarea.form-control, textarea.form-control:focus {
   transition: all 0.2s ease-in-out;
 }
 
-.clients.owl-carousel img {
-	width: 231px;
-}
 /* --- End of Clients --- */
 
 /* --- Sliders Nav --- */
