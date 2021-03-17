@@ -19,18 +19,6 @@
 11. Updates
 ------------------------------------------------------------ */
 
-@font-face {
-  font-family: "Open Sans Regular";
-  font-style: normal;
-  src: url("fonts/OpenSans-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-display: swap;
-}
-
-p {
-  font-family: "Open Sans Regular", Helvetica, Arial, Sans-Serif;
-}
-
 /* ------------------------------------------------------------
 1. Fonts
 ------------------------------------------------------------ */
