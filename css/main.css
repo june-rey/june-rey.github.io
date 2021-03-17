@@ -1589,7 +1589,8 @@ textarea.form-control, textarea.form-control:focus {
 
 .portfolio-item-img img {
   width: 422px;
-  height: 281px;
+/*   height: 281px; */
+    height: 100%;
 }
 
 .portfolio-grid figure .portfolio-item-img:after {
@@ -3022,3 +3023,4 @@ blockquote {
     font-size: 18px;
   }
 }
+
