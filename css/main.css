@@ -1071,7 +1071,30 @@ textarea.form-control, textarea.form-control:focus {
   transition: all 0.2s ease-in-out;
 }
 
-.clients.owl-carousel img { width: 231px;}
+.client-1 .client-block img,
+.client-3 .client-block img,
+.client-4 .client-block img,
+.client-5 .client-block img,
+.client-6 .client-block img{
+	width: 221px;
+	height: 221px;
+}
+
+.client-2 .client-block img {
+	width: 221px;
+	height: 83px;
+}
+
+.client-7 .client-block img {
+	width: 221px;
+	height: 126px;
+}
+.client-8 .client-block img {
+	width: 221px;
+	height: 65px;
+}
+
+
 /* --- End of Clients --- */
 
 /* --- Sliders Nav --- */
