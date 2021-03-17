@@ -406,7 +406,8 @@ img { width: 100%; }
 }
 
 .header-photo img {
-  max-width: 100%;
+  width:  176px;
+  height: 176px;
   background-color: #fff;
   border: 3px solid #fff;
   border-radius: 300px;
@@ -1580,6 +1581,11 @@ textarea.form-control, textarea.form-control:focus {
 .portfolio-item-img {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-item-img img {
+  width: 422px;
+  height: 281px;
 }
 
 .portfolio-grid figure .portfolio-item-img:after {
