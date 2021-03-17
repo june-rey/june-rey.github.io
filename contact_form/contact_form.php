@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'contact@june-rey.com'; // Replace it with Your Hosting Admin email. REQUIRED!
+$from = 'junetellain626@gmail.com'; // Replace it with Your Hosting Admin email. REQUIRED!
 $sendTo = 'junetellain626@gmail.com'; // Replace it with Your email. REQUIRED!
 $subject = 'New message from your github profile';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); // array variable name => Text to appear in the email. If you added or deleted a field in the contact form, edit this array.
