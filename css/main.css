@@ -1078,21 +1078,25 @@ textarea.form-control, textarea.form-control:focus {
 .client-5 .client-block img,
 .client-6 .client-block img{
 	width: 221px;
-	height: 221px;
+/* 	height: 221px; */
+	height: 100%;
 }
 
 .client-2 .client-block img {
 	width: 221px;
-	height: 83px;
+/* 	height: 83px; */
+	height: 100%;
 }
 
 .client-7 .client-block img {
 	width: 221px;
-	height: 126px;
+/* 	height: 126px; */
+	height: 100%;
 }
 .client-8 .client-block img {
 	width: 221px;
-	height: 65px;
+/* 	height: 65px; */
+	height: 100%;
 }
 
 
