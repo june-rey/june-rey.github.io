@@ -19,18 +19,6 @@
 11. Updates
 ------------------------------------------------------------ */
 
-@font-face {
-  font-family: "Open Sans Regular";
-  font-style: normal;
-  src: url("fonts/OpenSans-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-display: swap;
-}
-
-p {
-  font-family: "Open Sans Regular", Helvetica, Arial, Sans-Serif;
-}
-
 /* ------------------------------------------------------------
 1. Fonts
 ------------------------------------------------------------ */
@@ -407,6 +395,8 @@ input[type="submit"]:focus {
   color: #04b4e0;
 }
 /* --- End LMPixels Arrow Nav --- */
+
+img { width: 100%; }
 
 .header-photo {
   position: relative;
@@ -1079,6 +1069,10 @@ textarea.form-control, textarea.form-control:focus {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.clients.owl-carousel img {
+	width: 231px;
 }
 /* --- End of Clients --- */
 
