@@ -304,12 +304,13 @@
         });
 
         //Google Maps
-        $("#map").googleMap({
+/*         $("#map").googleMap({
+/*         $("#map").googleMap({
             zoom: 16 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
             address: "Bacolod City, Philippines", // Your Address.
-        });
+        }); */
     });
 
 })(jQuery);
