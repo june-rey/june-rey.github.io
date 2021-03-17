@@ -12,7 +12,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])):
     //your site secret key
-    $secret = '6Lcc6nwaAAAAAJ1UTJQ2pcrgQQXmpQFvUwE_oK3V';
+    $secret = '6LfNfoMaAAAAAGzwvLUe95Zzt1pbcQCyp4oP1-j2';
     //get verify response data
 
     $c = curl_init('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
