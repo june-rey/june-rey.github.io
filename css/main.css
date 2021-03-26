@@ -135,6 +135,18 @@ p {
   backface-visibility: hidden;
 }
 
+/* home */
+.content-area .row.absolute-home {
+position:absolute;
+}
+
+span.june-rey {
+	background:white;
+	color:black;
+	padding: 0 15px;
+	border-radius: 15px;
+}
+
 /* buttons */
 .btn-primary,
 .btn-secondary,
@@ -1002,6 +1014,17 @@ textarea.form-control, textarea.form-control:focus {
 }
 /* --- End of Info Block with Borders --- */
 
+
+/* Skills */
+
+.skill-percentage.administration {
+	width: 95%;
+}	
+
+.skill-percentage.graphics,
+.skill-percentage.webdev {
+	width: 90%;
+}	
 
 /* --- Testimonials --- */
 .testimonial {
