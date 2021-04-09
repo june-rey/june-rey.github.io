@@ -443,6 +443,7 @@ img { width: 100%; }
   z-index: -1;
 }
 
+.header-titles h1, 
 .header-titles h2 {
   font-size: 36px;
   font-weight: 600;
