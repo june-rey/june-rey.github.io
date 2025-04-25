@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unsubscribed</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Solid Image Background */
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://june-rey.github.io/kapetan_bg.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.8; /* Adjust the opacity for readability */
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      display: block;
+	  text-shadow: 1px 1px white;
+    }
+
+    .message {
+      font-size: 25px;
+      color: #fff;
+      padding: 0 20px;
+      text-shadow: 1px 1px black;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <div class="logo">
+      <img src="https://june-rey.github.io/kapetan_logo.png" alt="Kapetan Logo">
+    </div>
+    <div class="message">You’ve successfully unsubscribed.<br>We're sorry to see you go!<br>Feel free to reach out if you change your mind.</div>
+  </div>
+</body>
+</html>
