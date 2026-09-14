@@ -65,6 +65,22 @@
 	<link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
 	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+	<style>
+		/* Reserve the full logo area before images load so Owl Carousel cannot crop it. */
+		.clients .client-block {
+			min-height: 150px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.clients .client-block img {
+			display: block;
+			width: 100%;
+			max-height: 150px;
+			height: auto;
+			object-fit: contain;
+		}
+	</style>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TCDXE4WEM7"></script>
@@ -1744,5 +1760,19 @@
     <!-- <script src="js/jquery.googlemap.js"></script> -->
     <script src="js/validator.js"></script>
     <script src="js/main.js"></script>
+	<script>
+		(function ($) {
+			$(function () {
+				var $clients = $('.clients.owl-carousel');
+				$clients.find('img').removeAttr('loading');
+				var refreshClients = function () {
+					$clients.trigger('refresh.owl.carousel');
+				};
+				$clients.find('img').on('load error', refreshClients);
+				$(window).on('load', refreshClients);
+				setTimeout(refreshClients, 250);
+			});
+		})(jQuery);
+	</script>
   </body>
 </html>
