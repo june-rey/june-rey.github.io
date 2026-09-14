@@ -80,6 +80,23 @@
 			height: auto;
 			object-fit: contain;
 		}
+		/* Keep the portrait proportional when the mobile navigation expands. */
+		@media screen and (max-width: 767px) {
+			.header .header-photo {
+				width: 120px;
+				height: 120px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.header .header-photo img {
+				display: block;
+				width: 120px !important;
+				height: 120px !important;
+				max-width: 120px;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
 	</style>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -175,7 +192,7 @@
               <a href="Portfolio_June_Rey.pdf" target="_blank" class="btn btn-primary">View Portfolio</a>
             </div>
 
-            <div class="copyrights">© 2023 All Rights Reserved.</div>
+            <div class="copyrights">© 2026 All Rights Reserved.</div>
           </header>
 
           <!-- Mobile Navigation -->
@@ -837,7 +854,7 @@
 						<h4 class="item-title">IT Support / Web Dev / Graphics Designer</h4>
 						<p>Digital solutions, web development, graphics design, marketing and technical support for clients across multiple industries.
 						<br>➤&nbsp; <a href="https://sleepscienzzz.ph/" target="_blank" rel="noopener noreferrer" title="SleepScienzzz">SleepScienzzz</a> <i>(healthcare products / ecommerce)</i>
-						<br>➤&nbsp; <a href="https://laryssacreswell.com/" target="_blank" rel="noopener noreferrer" title="LMC">LMC</a> <i>(speaking / consultancy)</i>
+						<br>➤&nbsp; <a href="https://laryssacreswell.com/" target="_blank" rel="noopener noreferrer" title="Dr. Laryssa M. Creswell">Dr. Laryssa M. Creswell</a> <i>(speaking / consultancy)</i>
 						<br>➤&nbsp; <a href="http://theshiftlifecoaching.com/" target="_blank" rel="noopener noreferrer" title="The Shift Life Coaching">The Shift Life Coaching</a> <i>(coaching services)</i>
 						<br>➤&nbsp; <a href="https://rrisecollective.com/" target="_blank" rel="noopener noreferrer" title="RRISE Collective">RRISE Collective</a> <i>(professional services)</i>
 						<br>➤&nbsp; <a href="http://facebook.com/biobalanceph" target="_blank" rel="noopener noreferrer" title="BioBalance">BioBalance</a> <i>(vitamins / supplements)</i>
@@ -1120,6 +1137,12 @@
                         <li>Adobe Media Encoder</li>
 						<li>Canva</li>
 						<li>ChatGPT</li>
+						<li>Codex</li>
+						<li>Claude</li>
+						<li>NotebookLM</li>
+						<li>Apollo</li>
+						<li>GoHighLevel</li>
+						<li>Make.com</li>
 						<li>Filmora</li>
 						<li>WAMP</li>
                         <li>cPanel / WHM</li>
